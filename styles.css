@@ -1,0 +1,111 @@
+body {
+    background-color: beige;
+}
+
+.container-nav {
+    display: flex;
+    background-color: gray;
+    justify-content: flex-end;
+}
+
+.caja {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    font-family:monospace;
+    width: auto;
+    /*line-height: 120px;*/
+    text-align: center;
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+.flex-left {
+    display: flex;
+    background-color: red;
+    margin-right: auto;
+}
+.flex-right{
+    background-color: yellow;
+    display: flex;
+}
+
+.container-body {
+    background-color: #ccc;
+    padding: 50px;
+}
+.containerApps{
+    padding:5%;
+    display:flex;
+}
+
+.navApps{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+}
+input{
+    width: 300px;
+}
+
+.filtro{
+    margin-right: auto;
+}
+.Apps{
+    background-color: rgb(191, 153, 199);
+    width: 65%;
+}
+.topApps{
+    background-color: rgb(191, 153, 199);
+    width: 30%;
+    height: 600px;
+    position:fixed;
+    right: 2%;
+}
+
+.bodyApps{
+    padding: 2% 5%
+}
+
+img{
+    border: solid 2px;
+    border-radius: 10px;
+}
+.descripcion{
+    border: solid 2px;
+    width: 350px;
+    padding: 5px;
+}
+
+.topApps img {
+    width: 50px;
+    height: auto;
+}
+
+.btnComprar{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 40px;
+    background-color: rgb(56, 214, 82);
+}
+
+.btnComprarTOP{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 20px;
+    font-size: 9px;
+    background-color: rgb(56, 214, 82);
+}
+
+.nro{
+    width: 30px;
+    text-align: center;
+}
+
+.aTopApp:hover{
+    background-color: aqua;
+}
+
+.tabla:hover{
+    border: 0px;
+}
